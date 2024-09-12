@@ -1,0 +1,21 @@
+[workspace]
+
+resolver = "2"
+members = [ 
+    "beelay/beelay",
+    "beelay/beelay-core",
+    "beelay/beelay-cli",
+]
+
+[workspace.package]
+authors = [
+  "Alex Good",
+  "Brooklyn Zelenka",
+]
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/alexjg/beehive-placeholders"
+rust-version = "1.79.0"
+version = "0.1.0"
+
+
